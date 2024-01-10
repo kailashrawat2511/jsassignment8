@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Question:-1
+        //    Write a JavaScript function to check whether an input is an array or not.
+        //Answer:-
+
+        // let arr = [1, 2, 3, 4, 5, 6];
+        // let Alok = 23;
+        // console.log(Array.isArray(arr)); 
+        // console.log(Array.isArray(Alok)); 
+
+
+        //Question:-2
+        //    Write a JavaScript program that prints the elements of the following array.Note : Use nested for loops.
+        //Answer:-
+        
+        // let Arr = [[1, 2, 3],[34, 45],[6, 7, 8, 9]];
+        // for (let i = 0; i < Arr.length; i++) {
+        //     for (let j = 0; j < Arr[i].length; j++) {
+        //         console.log(Arr[i][j]);
+        //     }
+        // }
+
+
+        // Question: -3
+
+    	// There are two arrays with individual values.Write a JavaScript program to compute the sum of each 
+	    // individual index value in the given array. 
+    	// Sample array: array1 = [1, 0, 2, 3, 4]; array2 = [3, 5, 6, 7, 8, 13];
+	    // Expected Output: [4, 5, 8, 10, 12, 13]
+        // Answer: -
+        
+    //     Array1 = [1, 0, 2, 3, 13];
+    //     Array2 = [3, 5, 6, 7, 8, 13];
+
+    //     if(Array1.length<Array2.length){
+    //         for(let i=0; i<Array1.length; i++){
+    //             Array2[i] = Array2[i]+Array1[i];
+    //         }
+    //         console.log(`Array2 ${Array2}`);
+    //     }
+    //     else{
+    //         for(let i=0; i<Array2.length; i++){
+    //             Array1[i] = Array1[i]+Array2[i];
+    //         }
+    //         console.log(`Array1 ${Array1}`);
+    //     }
+
+
+    // Question:-4
+
+	// Write a simple JavaScript program to join all elements of the following array into a string.
+	// Sample Array: myColor = ["Red", "Green", "White", "Black"];
+	// Expected Output :
+	// "Red,Green,White,Black"
+	// "Red+Green+White+Black"
+    // Answer:-
+    
+        // myColor = ["Red", "Green", "White", "Black"];
+        // let str =myColor[0] ;
+        // for(let i=1; i<myColor.length; i++){
+        //     str += `,${myColor[i]}`;
+        // }
+        // console.log(str);
+        
+        // myColor = ["Red", "Green", "White", "Black"];
+        // let str =myColor[0] ;
+        // for(let i=1; i<myColor.length; i++){
+        //     str += `+${myColor[i]}`;
+        // }
+        // console.log(str);
+
+    // Question:-5
+
+	// Write a JavaScript program to sort the items of an array.
+	// Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+	// Sample Output : -4,-3,1,2,3,5,6,7,8
+    // Answer:-
+        
+        // var arr1 = [ -3, 8, 7, 6, 5, -3, -4, 3, 2, 1 ];
+        // let a;
+        // for(let i=0; i<arr1.length; i++){
+        //     for(let j=i+1; j<arr1.length; j++){
+        //         if(arr1[i]>arr1[j]){
+        //             a=arr1[i];
+        //             arr1[i]=arr1[j];
+        //             arr1[j]=a;
+        //         }
+        //     }
+        // }console.log(arr1);
+     
+     </script>
+</body>
+</html>
